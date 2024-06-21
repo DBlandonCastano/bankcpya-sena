@@ -138,6 +138,12 @@
   }
 
   /*section 2*/
+  .per{
+    background-image: url(/assets/image/person/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
   .personas{
     position: relative;
     margin: 0px auto;
@@ -148,20 +154,65 @@
     justify-content: center;
     align-items: center;
     gap: 150px;
-    
+  }
+  .personas h1{
+    font-size: 40px;
   }
   .articulo{
     display: flex;
     flex-wrap: wrap;
     gap: 150px;
-    
+   
   }
   .articulo img{
     width: 150px;
     height: 80px;
+    margin-bottom: 15px;
     border: 2px solid black;
     border-radius: 10px;
+    box-shadow: 10px 10px 8px #323030;
   }  
+
+  /*seccion3*/
+  .pro-per{
+    display: flex;
+    justify-content: center;
+  }
+  .produc{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+  }
+  .produc article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .link-per-prod{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .link-per-prod li{
+    list-style: none;
+  }
+  .link-per-prod li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-style:italic;
+  }
+  /*seccion 4*/
+  .cuenta{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
   @keyframes scroll{
     0%{
@@ -232,7 +283,7 @@
       border-radius: 10px;
     }  
     .articulo{
-      gap: 40px;
+      gap: 20px;
     }
     
   }
