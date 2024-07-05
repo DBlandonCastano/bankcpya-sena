@@ -108,7 +108,11 @@
     top: 120px;
     width: 100%;
     height: 100vh;
-  }
+    background-image: url(/assets/image/fondoseccion.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
   .container{
     position: relative;
     margin: 0 auto;
@@ -207,7 +211,7 @@
   }
   /*seccion 4*/
   .cuenta{
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -245,7 +249,7 @@
     justify-content: center;
     align-items: center;
     justify-items: center;
-    width: 50%;
+    width: 100%;
     height: 100vh;
     background-color: #f6f0f0eb;
     padding: 100px;
@@ -523,7 +527,90 @@
 .tradcen li{
   margin:20px;
 }
+.bot-t{
+  width: 5%;
+}
+.carac-cont{
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}  
+.carac{
+  position: relative;
+  top: 150px;
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+}
+.car-trad{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 
+}
+.car-trad img{
+  width: 200px;
+  height: 300px;
+  text-align: center;
+}
+.car-trad ul{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.car-trad li{
+  list-style: none;
+}
+.car-trad li span{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+.tain{
+  width: 100%;
+  height: 100vh;
+}
+.tasas{
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  gap: 20px;
+}
+.tas1{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+  gap: 150px;
+  padding: 10px;
+}
+.ti1{
+  width: 100%;
+
+}
+.ti1-part{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.ti1-part p{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
 
   @keyframes scroll{
     0%{

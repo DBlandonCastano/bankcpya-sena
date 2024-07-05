@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: url(/assets/image/fondoseccion.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.art_tc{
+    position: relative;
+    top: 30px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    text-align: center;
+}
+.arti_tc_tradicional{
+    width: 700px;
+    height: 600px;
+}
