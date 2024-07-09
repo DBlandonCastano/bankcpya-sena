@@ -59,9 +59,18 @@ section{
     background-size: cover;
     text-align: center;
 }
+.imgani{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:80px;
+    animation:scroll 60s linear infinite;
+    -webkit-animation: scroll 60s linear infinite;
+    width: calc(610*10);
+}
 .mv{
     position: relative;
-    top: 250px;
+    top: 230px;
     margin: 0 auto;
     width: 60%;
     display: flex;
@@ -101,3 +110,14 @@ section{
     5px 5px 5px 5px #333330,
     10px 10px 10px 10px #9b95b8;
 }
+
+@keyframes scroll{
+    0%{
+      -webkit-transform: translateX(0);
+      transform:translateX(0);
+    }
+    100%{
+      -webkit-transform: translateX(calc(-610px*5));
+      transform: translateX(calc(-610px*5));
+    }
+  }
