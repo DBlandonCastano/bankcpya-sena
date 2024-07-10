@@ -1,437 +1,500 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/index.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Bankcpya</title>
 </head>
+
 <body>
-        <header class="header">
-            <nav class="b_nav">
-                <div class="c-logo">
-                    <div class="logo">
-                        <img src="/assets/image/logo.png" alt="">
-                    </div>
-                    <div class="nombre">
-                        <span>BANKCPYA</span>
-                    </div>
+    <header class="header">
+        <nav class="b_nav">
+            <div class="c-logo">
+                <div class="logo">
+                    <img src="/assets/image/logo.png" alt="">
                 </div>
-                <ul class="menu menu2">
-                    <button class="b-cerrar boton--close">X</button>
-                    <li class="menu-item inicio"><a href="#"><span class="material-symbols-outlined">
-                        home
+                <div class="nombre">
+                    <span>BANKCPYA</span>
+                </div>
+            </div>
+            <ul class="menu menu2">
+                <button class="b-cerrar boton--close">X</button>
+                <li class="menu-item inicio"><a href="#"><span class="material-symbols-outlined">
+                            home
                         </span></a></li>
-                    <li class="menu-item">
-                        <a href="#per"><span class="material-symbols-outlined">
+                <li class="menu-item"><a href="/assets/html/acerca_nosotros.html" target="_blank">Acerca de...</a></li>
+                <li class="menu-item">
+                    <a href="#"><!--<span class="material-symbols-outlined"> per link
                             person
-                            </span> Personas</a>
-                        
-                    </li>
-                    <li class="menu-item">
-                        <a href="#"><span class="material-symbols-outlined">
+                            </span>--> Personas</a>
+                    <ul class="menu-vertical">
+                        <li class="menu-item"><a href="#">Captación</a>
+                            <ul class="menu-vertical2">
+                                <li class="menu-item"><a href="#cuenta">Cuenta de ahorro</a></li>
+                                <li class="menu-item"><a href="#cdt">CDT</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item"><a href="#">Colocación</a>
+                            <ul class="menu-vertical2">
+                                <li class="menu-item"><a href="#prestamo">Credito rotativo</a></li>
+                                <li class="menu-item"><a href="#prestamo">Credito de vivienda</a></li>
+                                <li class="menu-item"><a href="#prestamo">Credito de vehiculo</a></li>
+                                <li class="menu-item"><a href="#prestamo">Cre. libre inversión</a> </li>
+                                <li class="menu-item"><a href="#trad1">T.cred. tradicional</a></li>
+                                <li class="menu-item"><a href="#amparada">T.cred. amparada</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a href="#"><!--<span class="material-symbols-outlined">
                             factory
-                            </span> Pymes</a>
-                        <ul class="menu-vertical">
-                            <li class="menu-item"><a href="#">Recibe pagos</a></li>
-                            <li class="menu-item"><a href="#">Gestión</a></li>
-                            <li class="menu-item"><a href="#">Financiación</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item"><a href="/assets/html/acerca_nosotros.html" target="_blank">Acerca de...</a></li>
-                    <li class="menu-item"><a href="#">Más info...</a></li>
-                </ul>
-                <button class="boton-menu">
-                    <span class="material-symbols-outlined btn--open" >
-                        menu
-                    </span>
-                </button>
-            </nav>
-        </header>
-        <main class="main">
-            <section class="animacion" id="animacion">
-                <div class="container">
-                    <div class="slide">
-                        <div class="tarj">
-                            <div>
-                                <a href="#"><img src="/assets/image/slide/invierte.jpg" alt=""></a>
-                            </div>
-                            <h2>Invierte con nosotros</h2>
-                        </div>
-                        <div class="tarj">
-                            <div>
-                                <a href="#cuenta"><img src="/assets/image/slide/apertura.jpg" alt=""></a>
-                            </div>
-                            <h2>Apertura de cuenta</h2>
-                        </div>
-                        <div class="tarj">
-                            <div>
-                                <a href="#"><img src="/assets/image/slide/tarjeta.jpg" alt=""></a>
-                            </div>
-                            <h2>Adquiere tu tarjeta</h2>
-                        </div>
-                        <div class="tarj">
-                            <div>
-                                <a href="#"><img src="/assets/image/slide/prestamo.png" alt=""></a>
-                            </div>
-                            <h2>Adquiere tu prestamo</h2>
-                        </div>
-                        <div class="tarj">
-                            <div>
-                                <a href="#"><img src="/assets/image/slide/resibepagos.png" alt=""></a>
-                            </div>
-                            <h2>Resibe pagos</h2>
-                        </div>
-                        <div class="tarj">
-                            <div>
-                                <a href="#"><img src="/assets/image/slide/gestion.jpg" alt=""></a>
-                            </div>
-                            <h2>Gestión</h2>
-                        </div>
-                        <div class="tarj">
-                            <div>
-                                <a href="#"><img src="/assets/image/slide/financicion.jpg" alt=""></a>
-                            </div>
-                            <h2>financiación</h2>
-                        </div>
+                            </span>--> Pymes</a>
+                    <ul class="menu-vertical">
+                        <li class="menu-item"><a href="#">Recibe pagos</a></li>
+                        <li class="menu-item"><a href="#">Gestión</a></li>
+                        <li class="menu-item"><a href="#">Financiación</a></li>
+                    </ul>
+                </li>
 
-
-                        <div class="tarj">
-                            <div>
-                                <a href="#"><img src="/assets/image/slide/invierte.jpg" alt=""></a>
-                            </div>
-                            <h2>Invierte con nosotros</h2>
-                        </div>
-                        <div class="tarj">
-                            <div>
-                                <a href="#cuenta"><img src="/assets/image/slide/apertura.jpg" alt=""></a>
-                            </div>
-                            <h2>Apertura de cuenta</h2>
-                        </div>
-                        <div class="tarj">
-                            <div>
-                                <a href="#"><img src="/assets/image/slide/tarjeta.jpg" alt=""></a>
-                            </div>
-                            <h2>Adquiere tu tarjeta</h2>
-                        </div>
-                        <div class="tarj">
-                            <div>
-                                <a href="#"><img src="/assets/image/slide/prestamo.png" alt=""></a>
-                            </div>
-                            <h2>Adquiere tu prestamo</h2>
-                        </div>
-                        <div class="tarj">
-                            <div>
-                                <a href="#"><img src="/assets/image/slide/resibepagos.png" alt=""></a>
-                            </div>
-                            <h2>Resibe pagos</h2>
-                        </div>
-                        <div class="tarj">
-                            <div>
-                                <a href="#"><img src="/assets/image/slide/gestion.jpg" alt=""></a>
-                            </div>
-                            <h2>Gestión</h2>
-                        </div>
-                        <div class="tarj">
-                            <div>
-                                <a href="#"><img src="/assets/image/slide/financicion.jpg" alt=""></a>
-                            </div>
-                            <h2>financiación</h2>
-                        </div>
-
-
-                    </div>
-                </div>
-            </section>
-            <section class="per" id="per">
-                <div class="personas">
-                    <h1>¿Que necesito hoy?</h1>
-                    <article class="articulo"> 
-                        <div class="opc">
-                            <div>
-                                <img src="/assets/image/person/inicio.jpeg" alt="">
-                            </div>
-                            <h3>Inicio</h3>
-                        </div>
-                        <div class="opc">
-                            <div>
-                                <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjV5Mrz5OqGAxX1m1oFHasFDggYABAAGgJ2dQ&ase=2&gclid=CjwKCAjwps-zBhAiEiwALwsVYXzm6-sNSPvL32WZKe8OVfA1TJupG_E1p_8qIcJcuddxu54mh8TjkRoCM0kQAvD_BwE&ohost=www.google.com.co&cid=CAESVuD2c_zb9573xXl8s4xTi0T0-NvtU2Iy-OFNUDPkEBlpOxyPU3tof8oYIKkyQq8hDMQ0p4zvEM19AhFbeHuQ71y0qoj7k9i75_84hbbxptLPZ-2b3b_O&sig=AOD64_2n-vG1b3dHjWKN2no_x7KVhmns5Q&q&nis=4&adurl&ved=2ahUKEwjQjMbz5OqGAxUSgoQIHWcVCKsQ0Qx6BAgJEAE" target="_blank"> <img src="/assets/image/person/datacredito.png" alt=""></a>
-                            </div>
-                            <h3>Mi datacredito</h3>
-                        </div>
-                        <div class="opc">
-                            <div>
-                                <a href="#pro-per"><img src="/assets/image/person/productos.jpg" alt=""></a>
-                            </div>
-                            <h3>Productos</h3>
-                        </div>
-                    </article>
-                </div>
-            </section>
-            <section id="pro-per" class="pro-per">
-                <div class="produc">
-                    <article>
-                        <h2>PARA PERSONAS</h2>
+                <li class="menu-item"><a href="#">Más info...</a></li>
+            </ul>
+            <button class="boton-menu">
+                <span class="material-symbols-outlined btn--open">
+                    menu
+                </span>
+            </button>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="animacion" id="animacion">
+            <div class="container">
+                <div class="slide">
+                    <div class="tarj">
                         <div>
-                            <ul class="link-per-prod">
-                                <li><a href="#cuenta">Cuentas de ahorro</a></li>
-                                <li><a href="#cdt">CDT</a></li>
-                                <li><a href="#t-credito">Tarjeta de credito</a></li>
-                                <li><a href="#prestamo">Creditos</a></li>
-                               <!-- <li><a href="#">Credito rotativo</a></li>
+                            <a href="#"><img src="/assets/image/slide/invierte.jpg" alt=""></a>
+                        </div>
+                        <h2>Invierte con nosotros</h2>
+                    </div>
+                    <div class="tarj">
+                        <div>
+                            <a href="#cuenta"><img src="/assets/image/slide/apertura.jpg" alt=""></a>
+                        </div>
+                        <h2>Apertura de cuenta</h2>
+                    </div>
+                    <div class="tarj">
+                        <div>
+                            <a href="#"><img src="/assets/image/slide/tarjeta.jpg" alt=""></a>
+                        </div>
+                        <h2>Adquiere tu tarjeta</h2>
+                    </div>
+                    <div class="tarj">
+                        <div>
+                            <a href="#"><img src="/assets/image/slide/prestamo.png" alt=""></a>
+                        </div>
+                        <h2>Adquiere tu prestamo</h2>
+                    </div>
+                    <div class="tarj">
+                        <div>
+                            <a href="#"><img src="/assets/image/slide/resibepagos.png" alt=""></a>
+                        </div>
+                        <h2>Resibe pagos</h2>
+                    </div>
+                    <div class="tarj">
+                        <div>
+                            <a href="#"><img src="/assets/image/slide/gestion.jpg" alt=""></a>
+                        </div>
+                        <h2>Gestión</h2>
+                    </div>
+                    <div class="tarj">
+                        <div>
+                            <a href="#"><img src="/assets/image/slide/financicion.jpg" alt=""></a>
+                        </div>
+                        <h2>financiación</h2>
+                    </div>
+
+
+                    <div class="tarj">
+                        <div>
+                            <a href="#"><img src="/assets/image/slide/invierte.jpg" alt=""></a>
+                        </div>
+                        <h2>Invierte con nosotros</h2>
+                    </div>
+                    <div class="tarj">
+                        <div>
+                            <a href="#cuenta"><img src="/assets/image/slide/apertura.jpg" alt=""></a>
+                        </div>
+                        <h2>Apertura de cuenta</h2>
+                    </div>
+                    <div class="tarj">
+                        <div>
+                            <a href="#"><img src="/assets/image/slide/tarjeta.jpg" alt=""></a>
+                        </div>
+                        <h2>Adquiere tu tarjeta</h2>
+                    </div>
+                    <div class="tarj">
+                        <div>
+                            <a href="#"><img src="/assets/image/slide/prestamo.png" alt=""></a>
+                        </div>
+                        <h2>Adquiere tu prestamo</h2>
+                    </div>
+                    <div class="tarj">
+                        <div>
+                            <a href="#"><img src="/assets/image/slide/resibepagos.png" alt=""></a>
+                        </div>
+                        <h2>Resibe pagos</h2>
+                    </div>
+                    <div class="tarj">
+                        <div>
+                            <a href="#"><img src="/assets/image/slide/gestion.jpg" alt=""></a>
+                        </div>
+                        <h2>Gestión</h2>
+                    </div>
+                    <div class="tarj">
+                        <div>
+                            <a href="#"><img src="/assets/image/slide/financicion.jpg" alt=""></a>
+                        </div>
+                        <h2>financiación</h2>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <section class="per" id="per">
+            <div class="personas">
+                <h1>¿Que necesito hoy?</h1>
+                <article class="articulo">
+                    <div class="opc">
+                        <div>
+                            <img src="/assets/image/person/inicio.jpeg" alt="">
+                        </div>
+                        <h3>Inicio</h3>
+                    </div>
+                    <div class="opc">
+                        <div>
+                            <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjV5Mrz5OqGAxX1m1oFHasFDggYABAAGgJ2dQ&ase=2&gclid=CjwKCAjwps-zBhAiEiwALwsVYXzm6-sNSPvL32WZKe8OVfA1TJupG_E1p_8qIcJcuddxu54mh8TjkRoCM0kQAvD_BwE&ohost=www.google.com.co&cid=CAESVuD2c_zb9573xXl8s4xTi0T0-NvtU2Iy-OFNUDPkEBlpOxyPU3tof8oYIKkyQq8hDMQ0p4zvEM19AhFbeHuQ71y0qoj7k9i75_84hbbxptLPZ-2b3b_O&sig=AOD64_2n-vG1b3dHjWKN2no_x7KVhmns5Q&q&nis=4&adurl&ved=2ahUKEwjQjMbz5OqGAxUSgoQIHWcVCKsQ0Qx6BAgJEAE"
+                                target="_blank"> <img src="/assets/image/person/datacredito.png" alt=""></a>
+                        </div>
+                        <h3>Mi datacredito</h3>
+                    </div>
+                    <div class="opc">
+                        <div>
+                            <a href="#pro-per"><img src="/assets/image/person/productos.jpg" alt=""></a>
+                        </div>
+                        <h3>Productos</h3>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="pro-per" class="pro-per">
+            <div class="produc">
+                <article>
+                    <h2>PARA PERSONAS</h2>
+                    <div>
+                        <ul class="link-per-prod">
+                            <li><a href="#cuenta">Cuentas de ahorro</a></li>
+                            <li><a href="#cdt">CDT</a></li>
+                            <li><a href="#t-credito">Tarjeta de credito</a></li>
+                            <li><a href="#prestamo">Creditos</a></li>
+                            <!-- <li><a href="#">Credito rotativo</a></li>
                                 <li><a href="#">Credito de vivienda</a></li>
                                 <li><a href="#">Credito de vehiculo</a></li>
                                 <li><a href="#">Credito de libre inversión</a></li>-->
-                            </ul>
-                        </div>
-                    </article>
-                    <div>
-                        <img src="/assets/image/person/fon-perso.jpg" alt="">
+                        </ul>
                     </div>
-                </div>
-            </section>
-            <section id="cuenta" class="cuenta">
-                <div class="c-ahorro" >
-                    <h1> CUENTA DE AHORROS</h1>
-                    <P> ES UNA CUENTA BANCARIA EN DONDE PUEDES ADMINISTAR TU DINERO Y DISPONER DE EL CUANDO LO NECESITES. CUANDO ABRES TU CUENTA DE AHORROS RECIBES UNA TARJETA DE DEBITO QUE ES LA QUE TE PERMITE HACER COMPRAS EN ESTABLECIMIENTOS COMERCIALES O POR INTERNET ASI MISMO TE SIRVE PARA HACER RETIROS. AHORA EXISTEN OTRAS CUENTAS BANCARIAS QUE TAMBIEN TE AYUDAN A ADMINISTAR TU DINERO DE FORMA FACIL Y SEGURA. POR EJEMPLOS LAS CUENTAS DENOMINA Y LAS CUENTAS CORRIENTE</P>
-                </div>
+                </article>
                 <div>
-                    <img src="/assets/image/person/cuenta-ahorro.jpg" alt="">
+                    <img src="/assets/image/person/fon-perso.jpg" alt="">
                 </div>
-                <div class="tipos-c">
-                    <div> <a href="#modal-b">Beneficios</a></div>
-                    <div><a href="#tradicional">Cuenta de ahorros tradicional</a></div>
-                    <div><a href="#nomina">Cuenta de ahorros nomina</a></div>
+            </div>
+        </section>
+        <section id="cuenta" class="cuenta">
+            <div class="c-ahorro">
+                <h1> CUENTA DE AHORROS</h1>
+                <P> ES UNA CUENTA BANCARIA EN DONDE PUEDES ADMINISTAR TU DINERO Y DISPONER DE EL CUANDO LO NECESITES.
+                    CUANDO ABRES TU CUENTA DE AHORROS RECIBES UNA TARJETA DE DEBITO QUE ES LA QUE TE PERMITE HACER
+                    COMPRAS EN ESTABLECIMIENTOS COMERCIALES O POR INTERNET ASI MISMO TE SIRVE PARA HACER RETIROS. AHORA
+                    EXISTEN OTRAS CUENTAS BANCARIAS QUE TAMBIEN TE AYUDAN A ADMINISTAR TU DINERO DE FORMA FACIL Y
+                    SEGURA. POR EJEMPLOS LAS CUENTAS DENOMINA Y LAS CUENTAS CORRIENTE</P>
+            </div>
+            <div>
+                <img src="/assets/image/person/cuenta-ahorro.jpg" alt="">
+            </div>
+            <div class="tipos-c">
+                <div> <a href="#modal-b">Beneficios</a></div>
+                <div><a href="#tradicional">Cuenta de ahorros tradicional</a></div>
+                <div><a href="#nomina">Cuenta de ahorros nomina</a></div>
+            </div>
+        </section>
+        <section id="modal-b" class="modal-b">
+            <div class="cerrar-b">
+                <a href="#cuenta">Regresar</a>
+            </div>
+            <div class="ben-aho">
+                <h2>BENEFICIOS DE UNA CUENTA DE AHORROS</h2>
+                <ul>
+                    <li>Abre tu cuenta de ahorros digital en pocos minutos y desde cualquier dispositivo movil</li>
+                    <li>Lleva un control de tus movimientos financieros a traves de banca movil y banca virtual o de los
+                        comprobantes de deposito que se asocian a tu cuenta</li>
+                    <li>Haz retiro desde tu cuenta de ahorros con tarjeta devito o con un codigo de seguridad a traves
+                        de la app</li>
+                    <li>Programa los pagos de tus facturas, servicios y demas obligaciones con el debito automatico de
+                        tu tarjeta.</li>
+                    <li>Puedes escoger la cuenta que mejor se ajuste a tus necesidades.</li>
+                    <li>Puedes obtener rentabilidad sobre tus ahorros.</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="tradicional" id="tradicional">
+                <h2>CUENTA DE AHORROS TRADICIONAL</h2>
+                <div>
+                    <P>La cuenta de ahorros tradicional es el producto más usado para que puedas ahorrar y disponer de
+                        tu dinero de forma rápida.</P>
+                    <p>El dinero que generes en tu cuenta generará intereces de acuerdo a las políticas del banco, pagas
+                        una cuota de manejo a la tarjeta que escojas.</p>
                 </div>
-            </section>
-            <section  id="modal-b" class="modal-b">
-                <div class="cerrar-b">
+                <div class="regresar">
                     <a href="#cuenta">Regresar</a>
                 </div>
-                <div class="ben-aho">
-                    <h2>BENEFICIOS DE UNA CUENTA DE AHORROS</h2>
-                    <ul>
-                        <li>Abre tu cuenta de ahorros digital en pocos minutos y desde cualquier dispositivo movil</li>
-                        <li>Lleva un control de tus movimientos financieros a traves de banca movil y banca virtual o de los comprobantes de deposito que se asocian a tu cuenta</li>
-                        <li>Haz retiro desde tu cuenta de ahorros con tarjeta devito o con un codigo de seguridad a traves de la app</li>
-                        <li>Programa los pagos de tus facturas, servicios y demas obligaciones con el debito automatico de tu tarjeta.</li>
-                        <li>Puedes escoger la cuenta que mejor se ajuste a tus necesidades.</li>
-                        <li>Puedes obtener rentabilidad sobre tus ahorros.</li>
-                    </ul>
+            </div>
+        </section>
+        <section>
+            <div class="nomina" id="nomina">
+                <h2>CUENTA DE AHORROS NÓMINA</h2>
+                <div>
+                    <P>Es la cuenta donde puedes recibir el pago de tu salario. La empresa donde trabajas debe
+                        tenerfirmado un convenio de nómina con el Banco para que puedas disfrutar de múltiples
+                        beneficios.</P>
+                    <p>No pagas cuota de manejo y no exige saldo minimo en la cuenta.</p>
                 </div>
-            </section>
-            <section>
-                <div class="tradicional" id="tradicional">
-                    <h2>CUENTA DE AHORROS TRADICIONAL</h2>
-                    <div>
-                        <P>La cuenta de ahorros tradicional es el producto más usado para que puedas ahorrar y disponer de tu dinero de forma rápida.</P>
-                        <p>El dinero que generes en tu cuenta generará intereces de acuerdo a las políticas del banco, pagas una cuota de manejo a la tarjeta que escojas.</p>    
-                    </div>
-                    <div class="regresar">
-                        <a href="#cuenta">Regresar</a>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="nomina" id="nomina">
-                    <h2>CUENTA DE AHORROS NÓMINA</h2>
-                    <div>
-                        <P>Es la cuenta donde puedes recibir el pago de tu salario. La empresa donde trabajas debe tenerfirmado un convenio de nómina con el Banco para que puedas disfrutar de múltiples beneficios.</P>
-                        <p>No pagas cuota de manejo y no exige saldo minimo en la cuenta.</p>    
-                    </div>
-                    <div class="regresar">
-                        <a href="#cuenta">Regresar</a>
-                    </div>
-                </div>
-            </section>
-            <section class="cdt" id="cdt">
-                <article class="whatis">
-                    <h2>¿QUE ES UN CDT?</h2>
-                    <P>
-                        Un certificado de depósito a término (CDT) es un instrumento de inversión establecido mediante certificado, que permite invertir una cantidad de dinero en una entidad financiera por plazo determinado generalmente 30, 60, 90, 180 o 360 días.
-                    </P>
-                    <P>
-                        Las tasas de interés de los certificados depósito a término (CDT) son tasas de captación o pasivas que las instituciones financieras pagan a quienes dejan su dinero en forma de depósito con un monto y un plazo
-                        determinado, estas tasas establecen el rendimiento del dinero, y se LA INFORMACION DE QUE ES UN CDT, 6. EN ESTA OPCION SE ENCONTRAR
-                        determinan de acuerdo al monto y plazo pactados.
-                    </P>
-                </article>
-                <ul>
-                    <li><a href="#tipcdt">Tipos de CDT</a></li>
-                    <li><a href="#requisito">Requisitos CDT</a></li>
-                    <li><a href="/assets/html/calculadora.html" target="_blank">Emulador</a></li>
-                </ul>
-            </section>
-            <section class="tipcdt" id="tipcdt">
-                <article class="tiposcdt">
-                    <h2>TIPOS DE CDT</h2>
-                    <div class="tip">
-                        <article>
-                            <h3> CDT TRADICIONAL</h3>
-                            <ul>
-                                <li>El CDT tradicional es un producto financiero en el	 que una persona deposita una cantidad de dinero en una institución financiera a cambio de recibir un rendimiento fijo pactado previamente y al término de un plazo específico. Es una forma segura de invertir dinero, ya que el rendimiento está garantizado.</li>
-                                <li>Monto minimo de apertura $ 100.000</li>
-                                <li>Plazo minimo 30 dias</li>
-                                <li>Individual conjunta o alterna</li>
-                                <li>Seguro de deposito FOGAFIN</li>
-                                <li>El cliente no podrá retirar el dinero antes del	 tiempo pactado</li>
-                                <li>Tasa de interés dependerá del monto y el plazo.</li>
-                            </ul>
-                        </article>
-                        <article>
-                            <h3>CDT DIGITAL</h3>
-                            <ul>
-                                <li>El CDT digital es una evolución del CDT tradicional, que se adquiere y gestiona a través de plataformas digitales, sin necesidad de acudir físicamente a una sucursal bancaria. Este tipo de CDT ofrece comodidad y facilidad en la contratación y seguimiento, ya que todo el proceso se realiza en línea. Además, suele tener la misma seguridad y respaldo que un CDT tradicional.</li>
-                                <li>Monto minimo de apertura $ 100.000</li>
-                                <li>Elije entre 3 y 18 meses como plazo de pago</li>
-                                <li>Unico titular</li>
-                                <li>Plazo minimo 30 dias</li>
-                                <li>El cliente no podra retirar el dinero antes del tiempopactado. </li>
-                                <li>Tasa de interes dependera del monto y el plazo</li>
-                        </article>
-                        <div class="regresar">
-                            <a href="#cdt">Regresar</a>
-                        </div>
-                    </div>
-                </article>
-            </section>
-            <section class="reqcdt">
-                <article class="requisito" id="requisito">
-                    <h2>REQUISITOS DEL CDT</h2>
-                    <ul>
-                        <li>Para obtener un Certificado de Depósito a Término (CDT) en Colombia, generalmente necesitas cumplir con los siguientes requisitos</li>
-                        <li>Documento de identidad: Debes presentar tu documento de identificación válido, que puede ser tu cédula de ciudadanía, tarjeta de identidad o pasaporte.</li>
-                        <li>Ser mayor de edad: Debes tener la mayoría de edad según las leyes colombianas para poder abrir un CDT por tu cuenta. En Colombia, la mayoría de edad es a los 18 años.</li>
-                        <li>Dinero para invertir: Necesitas tener el monto mínimo requerido para abrir un CDT. El monto mínimo varía según el banco y el tipo de CDT que desees abrir.</li>
-                        <li>Elección de plazo y tasa de interés: Debes decidir el plazo por el cual deseas contratar el CDT y la tasa de interés que prefieres. La tasa de interés puede ser fija o variable, dependiendo de la oferta del banco.</li>
-                        <li>Elección de la entidad financiera: Puedes abrir un CDT en bancos, corporaciones financieras y cooperativas autorizadas por la Superintendencia Financiera de Colombia.</li>
-                        <li>Firmar el contrato: Una vez que hayas seleccionado la entidad financiera y el tipo de CDT que deseas abrir, deberás firmar un contrato que establezca los términos y condiciones de la inversión, incluyendo el plazo, la tasa de interés y las penalizaciones por retiro anticipado</li>
-                    </ul>
-                </article>
                 <div class="regresar">
-                    <a href="#cdt">Regresar</a>
+                    <a href="#cuenta">Regresar</a>
                 </div>
-            </section>
-            <section class="t-credito" id="t-credito">
-                <div class="conta">
-                    <div class="prin">
-                        <img src="/assets/image/person/logo-sena.jpg" alt="">
-                        <h1>TARJETAS DE CREDITO</h1>
-                    </div>
-                    <div class="tctc">
-                        <div>
-                            <div class="t-c-m"><a href="#trad1">TRADICIONAL</a></div>
-                            <div class="t-c-m"><a href="#amparada">AMPARADA</a></div>
-                        </div>
-                        <div>
-                            <div class="t-c-m">LINEAS DE ATENCION</div>
-                            <div class="lw">
-                                <div class="t-c-m">WHATSAPP </div>
-                                <img src="/assets/image/person/logo-whatsapp.jpg" alt="">
-                            </div>
-                            <div class="lc">
-                                <div class="t-c-m">CHAT BOT</div>
-                                <img src="/assets/image/person/log-chat.jpg" alt="">
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="t-c-m">
-                        <a href="#pro-per" >Regresar</a>
-                    </div>
-                </div>
-            </section>
-            <section class="trad1" id="trad1">
-                <div class="contenedor">
-                    <h1>Características</h1>
-                    <div class="tradcen">
-                        <div><img src="/assets/image/person/tradicional1.jpg" alt=""></div>
-                        <div><img src="/assets/image/person/tradicional2.jpg" alt=""></div>
+            </div>
+        </section>
+        <section class="cdt" id="cdt">
+            <article class="whatis">
+                <h2>¿QUE ES UN CDT?</h2>
+                <P>
+                    Un certificado de depósito a término (CDT) es un instrumento de inversión establecido mediante
+                    certificado, que permite invertir una cantidad de dinero en una entidad financiera por plazo
+                    determinado generalmente 30, 60, 90, 180 o 360 días.
+                </P>
+                <P>
+                    Las tasas de interés de los certificados depósito a término (CDT) son tasas de captación o pasivas
+                    que las instituciones financieras pagan a quienes dejan su dinero en forma de depósito con un monto
+                    y un plazo
+                    determinado, estas tasas establecen el rendimiento del dinero, y se LA INFORMACION DE QUE ES UN CDT,
+                    6. EN ESTA OPCION SE ENCONTRAR
+                    determinan de acuerdo al monto y plazo pactados.
+                </P>
+            </article>
+            <ul>
+                <li><a href="#tipcdt">Tipos de CDT</a></li>
+                <li><a href="#requisito">Requisitos CDT</a></li>
+                <li><a href="/assets/html/calculadora.html" target="_blank">Emulador</a></li>
+            </ul>
+        </section>
+        <section class="tipcdt" id="tipcdt">
+            <article class="tiposcdt">
+                <h2>TIPOS DE CDT</h2>
+                <div class="tip">
+                    <article>
+                        <h3> CDT TRADICIONAL</h3>
                         <ul>
-                            <li>
-                                <p>Saldo deudor que se financia con intereses.</p>
-                            </li>
-                            <li>
-                                <p>Las tarjetas de crédito tradicionales tienen un pago mínimo mensual que se debe realizar para evitar cargos por mora.</p>
-                            </li>
-                            <li>
-                                <p>Programas de puntos que se pueden canjear por viajes, productos o descuentos, seguros de viaje, protección contra fraude, entre otros.</p>
-                            </li>
+                            <li>El CDT tradicional es un producto financiero en el que una persona deposita una cantidad
+                                de dinero en una institución financiera a cambio de recibir un rendimiento fijo pactado
+                                previamente y al término de un plazo específico. Es una forma segura de invertir dinero,
+                                ya que el rendimiento está garantizado.</li>
+                            <li>Monto minimo de apertura $ 100.000</li>
+                            <li>Plazo minimo 30 dias</li>
+                            <li>Individual conjunta o alterna</li>
+                            <li>Seguro de deposito FOGAFIN</li>
+                            <li>El cliente no podrá retirar el dinero antes del tiempo pactado</li>
+                            <li>Tasa de interés dependerá del monto y el plazo.</li>
                         </ul>
-                        <div class="bot-t">
-                            <div class="t-c-m"><a href="#t-credito">Regresar</a></div>
-                            <div class="t-c-m"><a href="#carac-cont">Siguiente</a></div>
-                        </div>
+                    </article>
+                    <article>
+                        <h3>CDT DIGITAL</h3>
+                        <ul>
+                            <li>El CDT digital es una evolución del CDT tradicional, que se adquiere y gestiona a través
+                                de plataformas digitales, sin necesidad de acudir físicamente a una sucursal bancaria.
+                                Este tipo de CDT ofrece comodidad y facilidad en la contratación y seguimiento, ya que
+                                todo el proceso se realiza en línea. Además, suele tener la misma seguridad y respaldo
+                                que un CDT tradicional.</li>
+                            <li>Monto minimo de apertura $ 100.000</li>
+                            <li>Elije entre 3 y 18 meses como plazo de pago</li>
+                            <li>Unico titular</li>
+                            <li>Plazo minimo 30 dias</li>
+                            <li>El cliente no podra retirar el dinero antes del tiempopactado. </li>
+                            <li>Tasa de interes dependera del monto y el plazo</li>
+                    </article>
+                    <div class="regresar">
+                        <a href="#cdt">Regresar</a>
                     </div>
                 </div>
-            </section>
-            <section class="carac-cont" id="carac-cont">
-                <div class="carac">
-                    <h1>CARACTERISTICAS</h1>
-                    <div class="car-trad">
-                        <img src="/assets/image/person/billetico.png" alt="">
-                        <p>
-                            <ul>
-                                <li><span>Ingresos desde 1 SLMV </span></li>
-                                <li><span>Cupo entre $400 mil y 4.9 millones</span></li>
-                                <li><span>Edad entre 18 y 72 años </span></li>
-                                <li><span>Cuota de manejo de 6 meses a $0*</span></li>
-                                <li><span>Por cada $6000 a 6 puntos Colombia</span></li>
-                            </ul>
-                        </p>
-                        <div>
-                            <div class="t-c-m"><a href="#t-credito">Regresar</a></div>
-                            <div class="t-c-m"><a href="/assets/html/tarjeta_credito.html" target="_blank">Mas información</a></div>
+            </article>
+        </section>
+        <section class="reqcdt">
+            <article class="requisito" id="requisito">
+                <h2>REQUISITOS DEL CDT</h2>
+                <ul>
+                    <li>Para obtener un Certificado de Depósito a Término (CDT) en Colombia, generalmente necesitas
+                        cumplir con los siguientes requisitos</li>
+                    <li>Documento de identidad: Debes presentar tu documento de identificación válido, que puede ser tu
+                        cédula de ciudadanía, tarjeta de identidad o pasaporte.</li>
+                    <li>Ser mayor de edad: Debes tener la mayoría de edad según las leyes colombianas para poder abrir
+                        un CDT por tu cuenta. En Colombia, la mayoría de edad es a los 18 años.</li>
+                    <li>Dinero para invertir: Necesitas tener el monto mínimo requerido para abrir un CDT. El monto
+                        mínimo varía según el banco y el tipo de CDT que desees abrir.</li>
+                    <li>Elección de plazo y tasa de interés: Debes decidir el plazo por el cual deseas contratar el CDT
+                        y la tasa de interés que prefieres. La tasa de interés puede ser fija o variable, dependiendo de
+                        la oferta del banco.</li>
+                    <li>Elección de la entidad financiera: Puedes abrir un CDT en bancos, corporaciones financieras y
+                        cooperativas autorizadas por la Superintendencia Financiera de Colombia.</li>
+                    <li>Firmar el contrato: Una vez que hayas seleccionado la entidad financiera y el tipo de CDT que
+                        deseas abrir, deberás firmar un contrato que establezca los términos y condiciones de la
+                        inversión, incluyendo el plazo, la tasa de interés y las penalizaciones por retiro anticipado
+                    </li>
+                </ul>
+            </article>
+            <div class="regresar">
+                <a href="#cdt">Regresar</a>
+            </div>
+        </section>
+        <section class="t-credito" id="t-credito">
+            <div class="conta">
+                <div class="prin">
+                    <img src="/assets/image/person/logo-sena.jpg" alt="">
+                    <h1>TARJETAS DE CREDITO</h1>
+                </div>
+                <div class="tctc">
+                    <div>
+                        <div class="t-c-m"><a href="#trad1">TRADICIONAL</a></div>
+                        <div class="t-c-m"><a href="#amparada">AMPARADA</a></div>
+                    </div>
+                    <div>
+                        <div class="t-c-m">LINEAS DE ATENCION</div>
+                        <div class="lw">
+                            <div class="t-c-m">WHATSAPP </div>
+                            <img src="/assets/image/person/logo-whatsapp.jpg" alt="">
                         </div>
+                        <div class="lc">
+                            <div class="t-c-m">CHAT BOT</div>
+                            <img src="/assets/image/person/log-chat.jpg" alt="">
+                        </div>
+
                     </div>
                 </div>
-            </section>
-            <section class="amparada" id="amparada">
-                <article class="amp1">
-                    <h1>CARACTERISTICAS</h1>
-                    <div class="amp2">
-                        <div class="amp3">
-                            <div class="ampimg">
-                                <img src="/assets/image/person/amparada1.jpg" alt="">
-                                <img src="/assets/image/person/amparada2.jpg" alt="">
-                            </div>
-                            <div class="ampimg">
-                                <img src="/assets/image/person/amparada3.jpg" alt="">
-                                <img src="/assets/image/person/amparada4.jpg" alt="">
-                            </div>
+                <div class="t-c-m">
+                    <a href="#pro-per">Regresar</a>
+                </div>
+            </div>
+        </section>
+        <section class="trad1" id="trad1">
+            <div class="contenedor">
+                <h1>Características</h1>
+                <div class="tradcen">
+                    <div><img src="/assets/image/person/tradicional1.jpg" alt=""></div>
+                    <div><img src="/assets/image/person/tradicional2.jpg" alt=""></div>
+                    <ul>
+                        <li>
+                            <p>Saldo deudor que se financia con intereses.</p>
+                        </li>
+                        <li>
+                            <p>Las tarjetas de crédito tradicionales tienen un pago mínimo mensual que se debe realizar
+                                para evitar cargos por mora.</p>
+                        </li>
+                        <li>
+                            <p>Programas de puntos que se pueden canjear por viajes, productos o descuentos, seguros de
+                                viaje, protección contra fraude, entre otros.</p>
+                        </li>
+                    </ul>
+                    <div class="bot-t">
+                        <div class="t-c-m"><a href="#t-credito">Regresar</a></div>
+                        <div class="t-c-m"><a href="#carac-cont">Siguiente</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="carac-cont" id="carac-cont">
+            <div class="carac">
+                <h1>CARACTERISTICAS</h1>
+                <div class="car-trad">
+                    <img src="/assets/image/person/billetico.png" alt="">
+                    <p>
+                    <ul>
+                        <li><span>Ingresos desde 1 SLMV </span></li>
+                        <li><span>Cupo entre $400 mil y 4.9 millones</span></li>
+                        <li><span>Edad entre 18 y 72 años </span></li>
+                        <li><span>Cuota de manejo de 6 meses a $0*</span></li>
+                        <li><span>Por cada $6000 a 6 puntos Colombia</span></li>
+                    </ul>
+                    </p>
+                    <div>
+                        <div class="t-c-m"><a href="#t-credito">Regresar</a></div>
+                        <div class="t-c-m"><a href="/assets/html/tarjeta_credito.html" target="_blank">Mas
+                                información</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="amparada" id="amparada">
+            <article class="amp1">
+                <h1>CARACTERISTICAS</h1>
+                <div class="amp2">
+                    <div class="amp3">
+                        <div class="ampimg">
+                            <img src="/assets/image/person/amparada1.jpg" alt="">
+                            <img src="/assets/image/person/amparada2.jpg" alt="">
                         </div>
-                        <div class="amp4">
-                            <li>La tarjeta amparada se genera bajo lamisma categoría de la tarjeta titular.</li>
-                            <li>El titular puede aumentar o disminuir el cupo de la tarjeta y realizar el pago a compras específicas.</li>
-                            <li>El amparado no es reportado a centrales de riesgo.</li>
-                            <li>Los puntos acumuladas por el uso de la tarjeta amparada serán acumulados y redimidos por el titular.</li>
+                        <div class="ampimg">
+                            <img src="/assets/image/person/amparada3.jpg" alt="">
+                            <img src="/assets/image/person/amparada4.jpg" alt="">
                         </div>
                     </div>
-                    <div class="t-c-m"><a href="/assets/html/tarjeta_credito_amparada.html" target="_blank">Mas información</a></div>
-                </article>
-            </section>
-            <section class="prestamo" id="prestamo">
-                <div class="pres">
-                    <h1>Préstamos</h1>
-                    <article class="prestando">
-                        <div class="card"> 
-                            <div class="cardImg">
-                                <img src="/assets/image/person/pres1.jpg" alt="">
-                            </div>
-                            <div class="cardTexto">
-                                <h3>Crédito de libre inversión</h2>
-                                <p>Con este tipo de crédito puedes cumplir el sueño que tienes en mente. ¡simula tu crédito hasta $20.000.000 y conoce más de esta alternativa de préstamo!</p>
-                            </div>
-                            <div class="ultimo"><a href="/assets/html/pres1.html" target="_blank">Mas información</a></div>
+                    <div class="amp4">
+                        <li>La tarjeta amparada se genera bajo lamisma categoría de la tarjeta titular.</li>
+                        <li>El titular puede aumentar o disminuir el cupo de la tarjeta y realizar el pago a compras
+                            específicas.</li>
+                        <li>El amparado no es reportado a centrales de riesgo.</li>
+                        <li>Los puntos acumuladas por el uso de la tarjeta amparada serán acumulados y redimidos por el
+                            titular.</li>
+                    </div>
+                </div>
+                <div class="t-c-m"><a href="/assets/html/tarjeta_credito_amparada.html" target="_blank">Mas
+                        información</a></div>
+            </article>
+        </section>
+        <section class="prestamo" id="prestamo">
+            <div class="pres">
+                <h1>Préstamos</h1>
+                <article class="prestando">
+                    <div class="card">
+                        <div class="cardImg">
+                            <img src="/assets/image/person/pres1.jpg" alt="">
                         </div>
-                        <div class="card">
-                            <div class="cardImg">
-                                <img src="/assets/image/person/pres2.jpg" alt="">
-                            </div>
-                            <div class="cardTexto">
-                                <h3>Cupo rotativo</h2>
+                        <div class="cardTexto">
+                            <h3>Crédito de libre inversión</h2>
+                                <p>Con este tipo de crédito puedes cumplir el sueño que tienes en mente. ¡simula tu
+                                    crédito hasta $20.000.000 y conoce más de esta alternativa de préstamo!</p>
+                        </div>
+                        <div class="ultimo"><a href="/assets/html/pres1.html" target="_blank">Mas información</a></div>
+                    </div>
+                    <div class="card">
+                        <div class="cardImg">
+                            <img src="/assets/image/person/pres2.jpg" alt="">
+                        </div>
+                        <div class="cardTexto">
+                            <h3>Cupo rotativo</h2>
                                 <p>
                                     Crédito personal reutilizable. se
                                     otorga un préstamo con un cupo
@@ -442,36 +505,38 @@
                                     disponer del cupo parcial o
                                     totalmente.
                                 </p>
-                            </div>
-                            <div class="ultimo"><a href="/assets/html/pres2.html" target="_blank">Mas información</a></div>
                         </div>
-                        <div class="card">
-                            <div class="cardImg">
-                                <img src="/assets/image/person/pres3.jpg" alt="">
-                            </div>
-                            <div class="cardTexto">
-                                <h3>Credito hipotecario</h2>
+                        <div class="ultimo"><a href="/assets/html/pres2.html" target="_blank">Mas información</a></div>
+                    </div>
+                    <div class="card">
+                        <div class="cardImg">
+                            <img src="/assets/image/person/pres3.jpg" alt="">
+                        </div>
+                        <div class="cardTexto">
+                            <h3>Credito hipotecario</h2>
                                 <p></p>
-                            </div>
-                            <div class="ultimo"><a href="/assets/html/pres3.html" target="_blank">Mas información</a></div>
                         </div>
-                        <div class="card">
-                            <div class="cardImg">
-                                <img src="/assets/image/person/pres4.jpg" alt="">
-                            </div>
-                            <div class="cardTexto">
-                                <h3>Crédito de vehículo nuevo o usado de servicio particular</h2>
-                                <p>Es un crédito diseñado para que usted pueda financiar el automóvil de uso particular que ha soñado, con múltiples beneficios para hacer tu sueño realidad.</p>
-                            </div>
-                            <div class="ultimo"><a href="/assets/html/pres4.html" target="_blank">Mas información</a></div>
+                        <div class="ultimo"><a href="/assets/html/pres3.html" target="_blank">Mas información</a></div>
+                    </div>
+                    <div class="card">
+                        <div class="cardImg">
+                            <img src="/assets/image/person/pres4.jpg" alt="">
                         </div>
-                    </article>
-                </div>
-            </section>
-        </main>
-        
-        <footer class="footer"> 
-        </footer>
-        <script src="/assets/js/main.js"></script>
+                        <div class="cardTexto">
+                            <h3>Crédito de vehículo nuevo o usado de servicio particular</h2>
+                                <p>Es un crédito diseñado para que usted pueda financiar el automóvil de uso particular
+                                    que ha soñado, con múltiples beneficios para hacer tu sueño realidad.</p>
+                        </div>
+                        <div class="ultimo"><a href="/assets/html/pres4.html" target="_blank">Mas información</a></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+    </footer>
+    <script src="/assets/js/main.js"></script>
 </body>
+
 </html>
