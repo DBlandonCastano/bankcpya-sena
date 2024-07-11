@@ -173,15 +173,20 @@ section {
   font-size: larger;
   text-align: center;
 }
+.lo-whatsapp img{
+width: 30px;
+}
 
 /*section 2*/
-/*.per{
+.per{
     background-image: url(/assets/image/person/fondo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-  }*/
+    display: none;
+  }
 .personas {
+  
   position: relative;
   margin: 0px auto;
   width: 90%;
@@ -215,7 +220,8 @@ section {
 
 /*seccion3*/
 .pro-per {
-  display: flex;
+ display: none;
+  /*display: flex;*/
   justify-content: center;
 }
 
