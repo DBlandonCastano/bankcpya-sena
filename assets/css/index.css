@@ -176,6 +176,10 @@ section {
 .lo-whatsapp img{
 width: 30px;
 }
+.btn{
+  border: none;
+  background: transparent;
+}
 
 /*section 2*/
 .per{
@@ -307,6 +311,7 @@ width: 30px;
   height: 100vh;
   background-color: #f6f0f0eb;
   padding: 100px;
+  
 }
 
 .ben-aho {

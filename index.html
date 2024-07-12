@@ -25,10 +25,10 @@
             </div>
             <ul class="menu menu2">
                 <button class="b-cerrar boton--close">X</button>
-                <li class="menu-item inicio"><a href="#"><span class="material-symbols-outlined">
-                            home
-                        </span></a></li>
-                <li class="menu-item"><a href="/assets/html/acerca_nosotros.html" target="_blank">Acerca de...</a></li>
+                <li class="menu-item inicio"><button onclick="showInicio()" class="btn"><a href="#"><span class="material-symbols-outlined">
+                    home
+                </span></a></button></li>
+                <li class="menu-item"><a href="/assets/html/acerca_nosotros.html">Acerca de...</a></li>
                 <li class="menu-item">
                     <a href="#"><!--<span class="material-symbols-outlined"> per link
                             person
@@ -36,8 +36,8 @@
                     <ul class="menu-vertical">
                         <li class="menu-item"><a href="#">Captación</a>
                             <ul class="menu-vertical2">
-                                <li class="menu-item"><a href="#cuenta">Cuenta de ahorro</a></li>
-                                <li class="menu-item"><a href="#cdt">CDT</a></li>
+                                <li class="menu-item"><button onclick="showHide()" class="btn"><a href="#cuenta">Cuenta de ahorro</a></button></li>
+                                <li class="menu-item"><button onclick="show()" class="btn"><a href="#cdt">CDT</a></button></li>
                             </ul>
                         </li>
                         <li class="menu-item"><a href="#">Colocación</a>
@@ -258,7 +258,7 @@
                 </ul>
             </div>
         </section>
-        <section>
+        <section class="tradicional-p">
             <div class="tradicional" id="tradicional">
                 <h2>CUENTA DE AHORROS TRADICIONAL</h2>
                 <div>
@@ -272,7 +272,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="nomina-p">
             <div class="nomina" id="nomina">
                 <h2>CUENTA DE AHORROS NÓMINA</h2>
                 <div>
@@ -306,7 +306,7 @@
             <ul>
                 <li><a href="#tipcdt">Tipos de CDT</a></li>
                 <li><a href="#requisito">Requisitos CDT</a></li>
-                <li><a href="/assets/html/calculadora.html" target="_blank">Emulador</a></li>
+                <li><a href="/assets/html/calculadora.html">Emulador</a></li>
             </ul>
         </section>
         <section class="tipcdt" id="tipcdt">
@@ -376,7 +376,7 @@
                 <a href="#cdt">Regresar</a>
             </div>
         </section>
-        <section class="t-credito" id="t-credito">
+        <section class="t-credito" id="tcredito">
             <div class="conta">
                 <div class="prin">
                     <img src="/assets/image/person/logo-sena.jpg" alt="">
@@ -493,7 +493,7 @@
                                 <p>Con este tipo de crédito puedes cumplir el sueño que tienes en mente. ¡simula tu
                                     crédito hasta $20.000.000 y conoce más de esta alternativa de préstamo!</p>
                         </div>
-                        <div class="ultimo"><a href="/assets/html/pres1.html" target="_blank">Mas información</a></div>
+                        <div class="ultimo"><a href="/assets/html/pres1.html">Mas información</a></div>
                     </div>
                     <div class="card">
                         <div class="cardImg">
@@ -512,7 +512,7 @@
                                     totalmente.
                                 </p>
                         </div>
-                        <div class="ultimo"><a href="/assets/html/pres2.html" target="_blank">Mas información</a></div>
+                        <div class="ultimo"><a href="/assets/html/pres2.html">Mas información</a></div>
                     </div>
                     <div class="card">
                         <div class="cardImg">
@@ -522,7 +522,7 @@
                             <h3>Credito hipotecario</h2>
                                 <p></p>
                         </div>
-                        <div class="ultimo"><a href="/assets/html/pres3.html" target="_blank">Mas información</a></div>
+                        <div class="ultimo"><a href="/assets/html/pres3.html">Mas información</a></div>
                     </div>
                     <div class="card">
                         <div class="cardImg">
@@ -533,7 +533,7 @@
                                 <p>Es un crédito diseñado para que usted pueda financiar el automóvil de uso particular
                                     que ha soñado, con múltiples beneficios para hacer tu sueño realidad.</p>
                         </div>
-                        <div class="ultimo"><a href="/assets/html/pres4.html" target="_blank">Mas información</a></div>
+                        <div class="ultimo"><a href="/assets/html/pres4.html">Mas información</a></div>
                     </div>
                 </article>
             </div>
@@ -542,7 +542,7 @@
 
     <footer class="footer">
     </footer>
-    <script src="/assets/js/main.js"></script>
+   <!-- <script src="/assets/js/main.js"></script>-->
 </body>
 
 </html>
