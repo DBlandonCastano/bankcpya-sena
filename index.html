@@ -25,9 +25,9 @@
             </div>
             <ul class="menu menu2">
                 <button class="b-cerrar boton--close">X</button>
-                <li class="menu-item inicio"><button onclick="showInicio()" class="btn"><a href="#"><span class="material-symbols-outlined">
+                <li class="menu-item inicio" id="inicio" onclick="showInicio();"><a href="#"><span class="material-symbols-outlined">
                     home
-                </span></a></button></li>
+                </span></a></li>
                 <li class="menu-item"><a href="/assets/html/acerca_nosotros.html">Acerca de...</a></li>
                 <li class="menu-item">
                     <a href="#"><!--<span class="material-symbols-outlined"> per link
@@ -36,18 +36,18 @@
                     <ul class="menu-vertical">
                         <li class="menu-item"><a href="#">Captación</a>
                             <ul class="menu-vertical2">
-                                <li class="menu-item"><button onclick="showHide()" class="btn"><a href="#cuenta">Cuenta de ahorro</a></button></li>
-                                <li class="menu-item"><button onclick="show()" class="btn"><a href="#cdt">CDT</a></button></li>
+                                <li class="menu-item" onclick="showcuenta();"><a href="#cuenta">Cuenta de ahorro</a></li>
+                                <li class="menu-item" onclick="showcdt();"><a href="#cdt">CDT</a></li>
                             </ul>
                         </li>
                         <li class="menu-item"><a href="#">Colocación</a>
                             <ul class="menu-vertical2">
-                                <li class="menu-item"><a href="#prestamo">Credito rotativo</a></li>
-                                <li class="menu-item"><a href="#prestamo">Credito de vivienda</a></li>
-                                <li class="menu-item"><a href="#prestamo">Credito de vehiculo</a></li>
-                                <li class="menu-item"><a href="#prestamo">Cre. libre inversión</a> </li>
-                                <li class="menu-item"><a href="#trad1">T.cred. tradicional</a></li>
-                                <li class="menu-item"><a href="#amparada">T.cred. amparada</a></li>
+                                <li onclick="showprestamo();" class="menu-item"><a href="#prestamo">Credito rotativo</a></li>
+                                <li onclick="showprestamo();" class="menu-item"><a href="#prestamo">Credito de vivienda</a></li>
+                                <li onclick="showprestamo();" class="menu-item"><a href="#prestamo">Credito de vehiculo</a></li>
+                                <li onclick="showprestamo();" class="menu-item"><a href="#prestamo">Cre. libre inversión</a> </li>
+                                <li onclick="showtrad1();" class="menu-item"><a href="#trad1">T.cred. tradicional</a></li>
+                                <li ondblclick="showamparada();" class="menu-item"><a href="#amparada">T.cred. amparada</a></li>
                             </ul>
                         </li>
                         <li class="menu-item"><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjV5Mrz5OqGAxX1m1oFHasFDggYABAAGgJ2dQ&ase=2&gclid=CjwKCAjwps-zBhAiEiwALwsVYXzm6-sNSPvL32WZKe8OVfA1TJupG_E1p_8qIcJcuddxu54mh8TjkRoCM0kQAvD_BwE&ohost=www.google.com.co&cid=CAESVuD2c_zb9573xXl8s4xTi0T0-NvtU2Iy-OFNUDPkEBlpOxyPU3tof8oYIKkyQq8hDMQ0p4zvEM19AhFbeHuQ71y0qoj7k9i75_84hbbxptLPZ-2b3b_O&sig=AOD64_2n-vG1b3dHjWKN2no_x7KVhmns5Q&q&nis=4&adurl&ved=2ahUKEwjQjMbz5OqGAxUSgoQIHWcVCKsQ0Qx6BAgJEAE" target="_blank">Datacredito</a></li>
@@ -68,7 +68,7 @@
             </ul>
             <div>
                 <div><a href="https://www.instagram.com/bankcpya/">Instagram</a></div>
-                <div><a href="https://www.facebook.com/people/Bank-Cpya/pfbid0aFpb4so1meAcJRmfFai9FCfCB7XfRzUXeVuA8S6i8DUUWvDXP8n4mVLj2arhbsEDl/?mibextid=ZbWKwL">Facebook</a></div>
+                <div><a href="https://www.facebook.com/people/Bank-Cpya/pfbid0aFpb4so1meAcJRmfFai9FCfCB7XfRzUXeVuA8S6i8DUUWvDXP8n4mVLj2arhbsEDl/?mibextid=ZbWKwL"><img src="/assets/image/iconos/facebook.png" width="20px" alt="">Facebook</a></div>
                 <div class="lo-whatsapp"><a href="https://wa.me/573146486064?text=Me Interesa sus productos me das informacion"><img src="/assets/image/person/logo-whatsapp.jpg" alt=""></a></div>
             </div>
             <button class="boton-menu">
@@ -234,13 +234,13 @@
                 <img src="/assets/image/person/cuenta-ahorro.jpg" alt="">
             </div>
             <div class="tipos-c">
-                <div> <a href="#modal-b">Beneficios</a></div>
-                <div><a href="#tradicional">Cuenta de ahorros tradicional</a></div>
-                <div><a href="#nomina">Cuenta de ahorros nomina</a></div>
+                <div onclick="beneficio();"> <a href="#modal-b">Beneficios</a></div>
+                <div onclick="tradicional();"><a href="#tradicional">Cuenta de ahorros tradicional</a></div>
+                <div onclick="showNomina();"><a href="#nomina">Cuenta de ahorros nomina</a></div>
             </div>
         </section>
-        <section id="modal-b" class="modal-b">
-            <div class="cerrar-b">
+        <section id="modalb" class="modal-b">
+            <div class="cerrar-b" onclick="showcuenta();">
                 <a href="#cuenta">Regresar</a>
             </div>
             <div class="ben-aho">
@@ -258,7 +258,7 @@
                 </ul>
             </div>
         </section>
-        <section class="tradicional-p">
+        <section class="tradicional-p" id="tradicionalp">
             <div class="tradicional" id="tradicional">
                 <h2>CUENTA DE AHORROS TRADICIONAL</h2>
                 <div>
@@ -267,12 +267,12 @@
                     <p>El dinero que generes en tu cuenta generará intereces de acuerdo a las políticas del banco, pagas
                         una cuota de manejo a la tarjeta que escojas.</p>
                 </div>
-                <div class="regresar">
+                <div onclick="showcuenta();" class="regresar">
                     <a href="#cuenta">Regresar</a>
                 </div>
             </div>
         </section>
-        <section class="nomina-p">
+        <section class="nomina-p" id="nominap">
             <div class="nomina" id="nomina">
                 <h2>CUENTA DE AHORROS NÓMINA</h2>
                 <div>
@@ -281,7 +281,7 @@
                         beneficios.</P>
                     <p>No pagas cuota de manejo y no exige saldo minimo en la cuenta.</p>
                 </div>
-                <div class="regresar">
+                <div onclick="showcuenta();" class="regresar">
                     <a href="#cuenta">Regresar</a>
                 </div>
             </div>
@@ -304,8 +304,8 @@
                 </P>
             </article>
             <ul>
-                <li><a href="#tipcdt">Tipos de CDT</a></li>
-                <li><a href="#requisito">Requisitos CDT</a></li>
+                <li onclick="showtipcdt();"><a href="#tipcdt">Tipos de CDT</a></li>
+                <li onclick="showreqcdt();"><a href="#requisito">Requisitos CDT</a></li>
                 <li><a href="/assets/html/calculadora.html">Emulador</a></li>
             </ul>
         </section>
@@ -343,13 +343,13 @@
                             <li>El cliente no podra retirar el dinero antes del tiempopactado. </li>
                             <li>Tasa de interes dependera del monto y el plazo</li>
                     </article>
-                    <div class="regresar">
+                    <div onclick="showcdt();" class="regresar">
                         <a href="#cdt">Regresar</a>
                     </div>
                 </div>
             </article>
         </section>
-        <section class="reqcdt">
+        <section class="reqcdt" id="reqcdt">
             <article class="requisito" id="requisito">
                 <h2>REQUISITOS DEL CDT</h2>
                 <ul>
@@ -372,7 +372,7 @@
                     </li>
                 </ul>
             </article>
-            <div class="regresar">
+            <div onclick="showcdt();" class="regresar">
                 <a href="#cdt">Regresar</a>
             </div>
         </section>
@@ -425,13 +425,13 @@
                         </li>
                     </ul>
                     <div class="bot-t">
-                        <div class="t-c-m"><a href="#t-credito">Regresar</a></div>
-                        <div class="t-c-m"><a href="#carac-cont">Siguiente</a></div>
+                        <!--<div class="t-c-m"><a href="#t-credito">Regresar</a></div>-->
+                        <div onclick="showcaracont();" class="t-c-m"><a href="#carac-cont">Siguiente</a></div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="carac-cont" id="carac-cont">
+        <section class="carac-cont" id="caraccont">
             <div class="carac">
                 <h1>CARACTERISTICAS</h1>
                 <div class="car-trad">
@@ -446,8 +446,8 @@
                     </ul>
                     </p>
                     <div>
-                        <div class="t-c-m"><a href="#t-credito">Regresar</a></div>
-                        <div class="t-c-m"><a href="/assets/html/tarjeta_credito.html" target="_blank">Mas
+                        <div onclick="showtrad1();" class="t-c-m"><a href="#t-credito">Regresar</a></div>
+                        <div class="t-c-m"><a href="/assets/html/tarjeta_credito.html">Mas
                                 información</a></div>
                     </div>
                 </div>
@@ -476,7 +476,7 @@
                             titular.</li>
                     </div>
                 </div>
-                <div class="t-c-m"><a href="/assets/html/tarjeta_credito_amparada.html" target="_blank">Mas
+                <div class="t-c-m"><a href="/assets/html/tarjeta_credito_amparada.html">Mas
                         información</a></div>
             </article>
         </section>
@@ -542,7 +542,7 @@
 
     <footer class="footer">
     </footer>
-   <!-- <script src="/assets/js/main.js"></script>-->
+   <script src="/assets/js/prueba.js"></script>
 </body>
 
 </html>
